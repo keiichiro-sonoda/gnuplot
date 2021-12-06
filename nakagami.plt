@@ -1,4 +1,4 @@
-set xrange [0:10]
+set xrange [0:4]
 set samples 500
 # 第1種0次変形Bessel関数
 besI0(x) = 1 + sum[m=1:50]((x * x / 4) ** m) / (gamma(m + 1) ** 2)
